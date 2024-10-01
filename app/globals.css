@@ -24,4 +24,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .gradient{
+    @apply bg-gradient-to-b from-white via-slate-500 to-orange-400;
+  }
+  .gradient-title{
+    @apply gradient text-transparent bg-clip-text;
+  }
 }
